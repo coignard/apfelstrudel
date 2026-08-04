@@ -12,7 +12,7 @@ const chord = note(`<
   [gs3,b3,ds4]!12
   [gs3,cs4,f4]!12
   [gs3,b3,ds4]!12
->`).struct("<~ [t!3 ~!13] ~>").clip(.5)
+>`).struct("<~ [t!3 ~!13] ~>").clip(1/2)
 
 const pulse = note(`<
   [f4,gs4,c5]*8!12
